@@ -18,8 +18,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "lint:fix": "eslint . --ext js,jsx --fix"
+    "lint": "eslint . --ext js,jsx,ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext js,jsx,ts,tsx --fix",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -33,10 +34,17 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "vite": "^5.0.8"
+    "typescript": "^5.2.2",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.6.4"
   },
   "keywords": [
     "react",
+    "typescript",
+    "node",
+    "vite",
     "pddl",
     "planning",
     "animation",
@@ -44,6 +52,11 @@
     "ai",
     "ff",
     "fast-forward",
-    "planner"
+    "planner",
+    "frontend",
+    "web-development",
+    "javascript",
+    "eslint",
+    "tailwindcss"
   ]
 }
